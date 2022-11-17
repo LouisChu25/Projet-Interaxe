@@ -82,18 +82,23 @@
 }
 
 #password {
-  padding: 5px;
+  padding: 8px;
   border-radius: 20px;
 }
 
 #submit {
   background-color: white;
-  padding: 5px;
+  padding: 8px;
   width: 80%;
   margin: auto;
   border-radius: 20px;
   border-color: #6FBD8C;
   color: #6FBD8C;
+  cursor: pointer;
+}
+
+#error{
+  color: red;
 }
 
 .instruction-comparator {

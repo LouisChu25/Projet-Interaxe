@@ -72,8 +72,13 @@ data.results.forEach(item => {
         </div>
         `
 
-        document.querySelector('.close-post').addEventListener('click', e=>{
-            maximize.style.display = "none"
+        
+        document.querySelectorAll('.close-post').forEach(close =>{
+            close.addEventListener('click', e=>{
+                document.querySelectorAll('.overlay').forEach(item =>{
+                    item.style.display = "none"
+                })
+            })
         })
     })
     
@@ -81,6 +86,10 @@ data.results.forEach(item => {
     container.appendChild(maximize)
      
 });
+
+window.addEventListener('load', e =>{
+    
+})
 
 
 let longitude =  document.querySelector('#longitude')

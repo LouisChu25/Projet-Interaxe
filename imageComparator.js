@@ -95,12 +95,11 @@ document.addEventListener('DOMContentLoaded', function() {
 function verify(userinput) {
     if (userinput.toLowerCase().replace("é", "e") == password) {
         console.log(userinput)
-        alert('Félicitation vous avez trouvé')
         window.location.href = 'game.html';
         
     }
     else {
-        alert('Cela ne semble pas fonctionner, trouvez autre chose')
+        document.querySelector('#error').innerText = "Mot de passe incorrect"
     }
 };
 
