@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page de prologue */
+
+.prologue {
+    margin: 0;
+    overflow: hidden;
+    background: #061928;
+    height: 100vh;
+}
+
+#typedtext {
+    color: white;
+    font-size: larger;
+}
+
+.center-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center-container h1 {
+    color: white;
+    margin-bottom: 100px;
+}
+
+.inspectbutton {
+    background-color: lightblue;
+    padding: 15px;
+    opacity: 0;
+    animation: delaybutton 1s forwards;
+    animation-delay: 20s;
+}
+
+.inspectbutton a {
+    text-decoration: none;
+    color: black;
+}
+
+@keyframes delaybutton {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+
+
+/* Rainfall animation */
+
+
+.rain {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  
+  .rain.back-row {
+    display: none;
+    z-index: 1;
+    bottom: 60px;
+    opacity: 0.5;
+  }
+  
+  .rain.back-row {
+    display: block;
+  }
+  
+  .drop {
+    position: absolute;
+    bottom: 100%;
+    width: 15px;
+    height: 120px;
+    pointer-events: none;
+    animation: drop 0.5s linear infinite;
+  }
+  
+  @keyframes drop {
+    0% {
+      transform: translateY(0vh);
+    }
+    75% {
+      transform: translateY(90vh);
+    }
+    100% {
+      transform: translateY(90vh);
+    }
+  }
+  
+  .stem {
+    width: 1px;
+    height: 60%;
+    margin-left: 7px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25));
+    animation: stem 0.5s linear infinite;
+  }
+  
+  @keyframes stem {
+    0% {
+      opacity: 1;
+    }
+    65% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .splat {
+    width: 15px;
+    height: 10px;
+    border-top: 2px dotted rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    opacity: 1;
+    transform: scale(0);
+    animation: splat 0.5s linear infinite;
+    display: none;
+  }
+  
+  body.splat-toggle .splat {
+    display: block;
+  }
+  
+  @keyframes splat {
+    0% {
+      opacity: 1;
+      transform: scale(0);
+    }
+    80% {
+      opacity: 1;
+      transform: scale(0);
+    }
+    90% {
+      opacity: 0.5;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.5);
+    }
+  }
+  
+  
+  .splat-toggle {
+    top: 20px;
+  }
+  
+  .back-row-toggle {
+    top: 90px;
+    line-height: 12px;
+    padding-top: 14px;
+  }
+  
+  .single-toggle {
+    top: 160px;
+  }
+  
+  body.single-toggle .drop {
+    display: none;
+  }
+  
+  body.single-toggle .drop:nth-child(10) {
+    display: block;
+  }

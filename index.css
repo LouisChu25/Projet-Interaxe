@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ecran de bienvenue */
+
+.welcomescreen {
+    background-image: url("img/welcomebackground.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.welcome {
+    overflow: hidden;
+    font-size: 1.6rem;
+    border-right: 2px solid white;
+    width: 0;
+    white-space: nowrap;
+    color: white;
+    height: 50px;
+    animation: typing 2.5s steps(50, end) forwards, blink .75s step-end infinite;
+    height: auto;
+}
+
+.container {
+    display: inline-block;
+
+}
+
+.play {
+    background-color: #31eb6c;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    animation: buttonappear 10s forwards;
+    height: 50px;
+}
+
+.play a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/* Animations pour faire apparaître le text */
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes buttonappear {
+    from { width: 200px;
+    margin: auto;
+    opacity: 0;
+    margin-top: 30px;
+ }
+    to { width: 200px;
+        margin: auto;
+        opacity: 100%;
+        margin-top: 30px;
+    
+    }
+  }
+
+  @keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }

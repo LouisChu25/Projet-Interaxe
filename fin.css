@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodyfin {
+    background-image: url('img/bg-interaxe.jpg');
+}
+
+.congratscenter {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.congratscenter p {
+    width: 30%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
