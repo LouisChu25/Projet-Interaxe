@@ -81,7 +81,7 @@ function initComparisons() {
 
 
 // la fonction du mot de passe
-const password = 'transversalité';
+const password = 'transversalite';
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -93,10 +93,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function verify(userinput) {
-    if (userinput == password) {
+    if (userinput.toLowerCase().replace("é", "e") == password) {
         console.log(userinput)
         alert('Félicitation vous avez trouvé')
-        window.location.href = 'index.html';
+        window.location.href = 'game.html';
         
     }
     else {

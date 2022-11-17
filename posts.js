@@ -43,8 +43,6 @@ data.results.forEach(item => {
     maximize.className = 'overlay'
     maximize.style.display = "none"
 
-    let close = ''
-
     minify.addEventListener('click', e =>{
         maximize.style.display = "grid"
         maximize.innerHTML =

@@ -13,22 +13,22 @@ path = {
             'languages' : {
                 'php.docx' : '<p>PHP: Hypertext Preprocessor, plus connu sous son sigle PHP, est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n\'importe quel langage interprété de façon locale. PHP est un langage impératif orienté objet.</p>',
                 'javascript.docx' : '<p>JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web. Avec les langages HTML et CSS, JavaScript est au cœur des langages utilisés par les développeurs web.</p>',
-                'notespersonnelles.docx' : '<p>L\'autre jour, j\'ai entendu le docteur mar et le docteur var discuter d\'un projet, il semblerait que les 2 soient en collaboration. Le docteur var a récemment fait plusieurs nuit blanche pour travailler sur ce projet</p>' 
+                'notespersonnelles.docx' : '<p><b>L\'autre jour, j\'ai entendu le docteur var parler d\'un projet au téléphone. Le docteur var a récemment fait plusieurs nuit blanche pour travailler sur ce projet</b></p>' 
             },
         },
         'docteurvar' : {
             'creations' : {
-                'maquettes.docx' : '<img src="https://cdn-cashy-static-assets.lucidchart.com/marketing/pages/i18n/fr/wireframe-image/_new_wireframe-en-ligne.png" style="width: 400; height: 500">',
-                'bannieres.docx' : '<img src="https://www.crushpixel.com/big-static17/preview4/brush-sale-banner-promotion-ribbon-2568376.jpg">'
+                'maquettes.docx' : '<img src="https://cdn-cashy-static-assets.lucidchart.com/marketing/pages/i18n/fr/wireframe-image/_new_wireframe-en-ligne.png" width="500">',
+                'bannieres.docx' : '<img src="https://www.crushpixel.com/big-static17/preview4/brush-sale-banner-promotion-ribbon-2568376.jpg" width="500">'
             },
             'design': {
                 'creadesign.docx' : '<p>Dans l\'axe création et design vous développerez des compétences qui vous permettrons de réaliser tout type de contenu. Vous serez capable d\'utiliser les différents outils de la suite adobe pour vous permettre de créer des designs efficaces.</p>',
                 'storyboard.docx' : '<p>Un storyboard ou scénarimage, est un document sur papier ou fichier numérique, utilisé au cinéma et en téléfilm, lors de la préproduction afin de planifier les besoins de l\'ensemble des plans qui constitueront le film, aussi bien au niveau technique qu\'au niveau artistique.</p>',
-                'typographie.docx': '<p>La typographie (souvent abrégée en « typo ») désigne les différents procédés de composition et d’impression utilisant des caractères et des formes en relief, ainsi que l’art d’utiliser les différents types de caractères dans un but esthétique et pratique.</p><p>Pendant que je rédigeais mes notes sur la typographie, le professeur mar est venu me parler de son projet de promotion d\'un tout nouveau produit alimentaire. Il m\'a demandé de réaliser des visuels de promotions de la veille au lendemain, je n\'ai pas pu me reposer ces derniers jours...</p>'
+                'typographie.docx': '<p>La typographie (souvent abrégée en « typo ») désigne les différents procédés de composition et d’impression utilisant des caractères et des formes en relief, ainsi que l’art d’utiliser les différents types de caractères dans un but esthétique et pratique.</p><p><b>Pendant que je rédigeais mes notes sur la typographie, le professeur mar est venu me parler de son projet de promotion d\'un tout nouveau produit alimentaire. Il m\'a demandé de réaliser des visuels de promotions de la veille au lendemain, je n\'ai pas pu me reposer ces derniers jours...</b></p>'
             },
             'notes' : {
                 'notespersonnelles.docx' : '<i>Ce fichier est vide</i>',
-                'nxdes.docx' : '<img src="https://i.kym-cdn.com/entries/icons/original/000/037/848/cover2.jpg">'
+                'nxdes.docx' : '<img src="https://i.kym-cdn.com/entries/icons/original/000/037/848/cover2.jpg" width="500">'
             }
         },
         'docteurmar' : {
@@ -45,13 +45,13 @@ path = {
             'projets' : {
                 'promotions.txt' : 'projet non commencé',
                 'postsréseaux.docx' : '<i>les posts ont été effacés</i>',
-                'nouvellerecette.docx' : '<p>L\'objectif de ce projet était de créer une nouvelle recette de barre énergétique pour une entreprise. Ce fut un succès. Après avoir consommé une barre, un individu a eu la capacité de faire de l\'exercice physique intense pendant plus de 10h sans fatigue</p><p>Cependant après une semaine, les individus testeurs ont montré des symptômes de fièvres. Je suis alors allé voir le professeurAI pour lui demander conseil</p>'
+                'nouvellerecette.docx' : '<p><b>L\'objectif de ce projet était de créer une nouvelle recette de barre énergétique pour une entreprise. Ce fut un succès. Après avoir consommé une barre, un individu a eu la capacité de faire de l\'exercice physique intense pendant plus de 10h sans fatigue</p><p>Cependant après une semaine, les individus testeurs ont montré des symptômes de fièvres. Je suis alors allé voir le professeurAI pour lui demander conseil</b></p>'
             },
         },
         'professeurAI': {
             'projets': {
-                'flappybird.docx' : '<img src="https://psmag.com/.image/t_share/MTI3NTgyMjIwOTYwNjM1MzU4/flappy-bird.jpg">',
-                'appeldudevoir.docx' : '<img src="https://isocpp.org/files/img/arkanoid.PNG"> <p>Pendant que je travaillais sur ce projet, le docteur mar est venu me voir pour me parler d\'un problème concernant les nouveaux produits sur lesquels il a travaillé. J\'étudierai cela dans mon temps libre dans mon dossier d\'activité</p>'
+                'flappybird.docx' : '<img src="https://psmag.com/.image/t_share/MTI3NTgyMjIwOTYwNjM1MzU4/flappy-bird.jpg" width="500">',
+                'appeldudevoir.docx' : '<img src="https://isocpp.org/files/img/arkanoid.PNG" width="500"> <p>Pendant que je travaillais sur ce projet, le docteur mar est venu me voir pour me parler d\'un problème concernant les nouveaux produits sur lesquels il a travaillé. J\'étudierai cela dans mon temps libre dans mon dossier d\'activité</p>'
             },
             'jeuxvideos' : {
                 'introduction.txt' : 'Dans cette axe, vous pourrez apprendre à développer vos propres jeux vidéos. Vous serez capable de créer vos propres décors et mettre en place vous même les mécaniques de jeu. Lorsque vous aurez plus d\'expérience, vous pourrez vous spécialiser',
@@ -60,8 +60,8 @@ path = {
                 'gamedesign.docx': '<p>fondamentaux, design doc, analyse de jeu, brainstorming, expérience & émotions, intégration Unity, narration/scénarisation, rationalisation, UX.</p>',
                 'solutionauvirus.docx' : '<img src="https://www.memecreator.org/static/images/memes/5278908.jpg"></img>',
                 'activites': {
-                    'entitéespeciale.docx' :  '<img src="https://play-lh.googleusercontent.com/XVHP0sBKrRJYZq_dB1RalwSmx5TcYYRRfYMFO18jgNAnxHAIA1osxM55XHYTb3LpkV8"></img>',
-                    'hobby.docx': '<p>L\'heure est grave. En effet, un virus mortel est né de cette nouvelle barre énergétique. Les personnes ayant consommé ce produit subissent de violents symptômes après une semaine</p> <p>Heureusement, j\'ai pu commencé à mettre en place la moitié de la formule chimique du vaccin. Malheuresement j\'ai été contaminé, il ne me reste plus de temps. Vous devriez aller voir le docteurpal pour qu\'il complète le reste de la formule. Voici le début : C8H10</p>'
+                    'entitéespeciale.docx' :  '<img src="https://play-lh.googleusercontent.com/XVHP0sBKrRJYZq_dB1RalwSmx5TcYYRRfYMFO18jgNAnxHAIA1osxM55XHYTb3LpkV8" width="500"></img>',
+                    'hobby.docx': '<p><b>L\'heure est grave. En effet, un virus mortel est né de cette nouvelle barre énergétique. Les personnes ayant consommé ce produit subissent de violents symptômes après une semaine</p> <p>Heureusement, j\'ai pu commencé à mettre en place la moitié de la formule chimique du vaccin. Malheuresement j\'ai été contaminé, il ne me reste plus de temps. Vous devriez aller voir le docteurpal pour qu\'il complète le reste de la formule. Voici le début : C8H10</b></p>'
                 }
             }
         },
@@ -72,15 +72,15 @@ path = {
                 'showreel.docx' : '<p>Le showreel est un montage vidéo permettant de démontrer le savoir-faire et les compétences d\'une agence de production audiovisuelle ou d\'une agence de publicité. Le showreel est un montage des productions et actions réalisées et considérées comme les plus marquantes.</p>',
             },
             'projets' : {
-                'personnage.docx' : '<img src="https://i.ytimg.com/vi/7Q2wTfTp8JI/maxresdefault.jpg"></img>',
-                'décor.docx' : '<img src="https://fr-images.tuto.net/gallery/63/63191/10512721.jpg"></img> <p>J\'étais en train de travailler sur des décors quand j\'ai reçu un mail du professeurAI. Grâce à la première partie de sa formule, j\'ai pu compléter la formule chimique pour le vaccin, voici le reste : N4O2</p>'
+                'personnage.docx' : '<img src="https://i.ytimg.com/vi/7Q2wTfTp8JI/maxresdefault.jpg" width="500"></img>',
+                'décor.docx' : '<img src="https://fr-images.tuto.net/gallery/63/63191/10512721.jpg" width="500"></img> <p><b>J\'étais en train de travailler sur des décors quand j\'ai reçu un mail du professeurAI. Grâce à la première partie de sa formule, j\'ai pu compléter la formule chimique pour le vaccin, voici le reste : N4O2. Pour lancer la création du vaccin entrez la commande suivante : vaccinlaunch</b></p>'
             },
             'autres': {
                 'fichier1.docx' : '<i>vide</i>',
                 'fichier2.docx' : '<i>vide</i>',
                 'fichier3.docx' : '<i>vide</i>',
                 'fichier4.docx' : '<i>vide</i>',
-                'fichier5.docx' : '<i>Il n\'y a rien ici</i>' 
+                'fichier5.docx' : '<i>Il n\'y a rien ici</i>'
                 
             }
         }
