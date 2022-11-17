@@ -28,7 +28,7 @@ path = {
             },
             'notes' : {
                 'notespersonnelles.docx' : '<i>Ce fichier est vide</i>',
-                'nxdes' : '<img src="https://i.kym-cdn.com/entries/icons/original/000/037/848/cover2.jpg">'
+                'nxdes.docx' : '<img src="https://i.kym-cdn.com/entries/icons/original/000/037/848/cover2.jpg">'
             }
         },
         'docteurmar' : {
@@ -36,11 +36,11 @@ path = {
             'notions' : {
                 'inboundmarketing.docx' : '<p>L\'inbound marketing est une stratégie marketing visant à faire venir le client à soi plutôt que d\'aller le chercher avec les techniques de marketing traditionnelles de type outbound marketing.</p>',
                 'SEO.docx' : '<p>L\'optimisation pour les moteurs de recherche, aussi connue sous le sigle SEO, inclut l\'ensemble des techniques qui visent à améliorer le positionnement d`\'une page, d\'un site ou d\'une application web dans la page de résultats d\'un moteur de recherche.</p>',
-                'socialads.docx' : '<p>Le Social Ads est une publicité qui s\'appuie sur des informations ou des réseaux sociaux pour générer, cibler et diffuser des communications marketing.'
+                'socialads.docx' : '<p>Le Social Ads est une publicité qui s\'appuie sur des informations ou des réseaux sociaux pour générer, cibler et diffuser des communications marketing.</p>'
             },
             'projetscom' : {
-                'creation.txt' : '<i>Ceci est un projet pour promouvoir des nouveaux produits</i>',
-                'chocolat.txt' : '<i>Ceci est projet de promotion d\'une marque de chocolat</i>'
+                'creation.docx' : '<i>Ceci est un projet pour promouvoir des nouveaux produits</i>',
+                'chocolat.docx' : '<i>Ceci est projet de promotion d\'une marque de chocolat</i>'
             },
             'projets' : {
                 'promotions.txt' : 'projet non commencé',
@@ -184,6 +184,25 @@ help: function(){
         {
             this.echo("File does not exist.")
         }
+    },
+    vaccinlaunch: function()
+    {
+        var history = this.history();
+        history.disable();
+        this.push(function(formula) {
+            if (formula == "C8H10N4O2")
+            {
+                window.location.href = "fin.html";
+            }
+            else
+            {
+                this.echo("Cela n'a rien donné...");
+                this.pop();
+                history.enable();
+            }
+        }, {
+            prompt: 'Entrez la formule : '
+        });
     }
 }, {
     greetings: 'Base de données du laboratoire (Tapez help pour voir la liste des commandes)',

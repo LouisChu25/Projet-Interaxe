@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ordi {
+    width: 50%;
+}
+
+.backgroundtheme {
+    background-image: url('img/bg-interaxe.jpg');
+}
+
+
+.ordicontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ordicontainer p {
+   color: white;
+   width: 30%;
+   text-align: center;
+}
+
+.ordicontainer h2 {
+    color: white;
+}
+
+.ordicontainer ul {
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.buttoncommandline {
+    background-color: #31eb6c;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.buttoncommandline a {
+    text-decoration: none;
+    color: black;
+
+}
