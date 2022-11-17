@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
 }
 
 /* Ecran de bienvenue */
@@ -42,14 +45,17 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    font-weight: bold;
     animation: buttonappear 10s forwards;
     height: 50px;
+    cursor: pointer;
 }
 
-.play a {
+.welcomescreen a {
     text-decoration: none;
     font-weight: bold;
     color: black;
+    
 }
 
 /* Animations pour faire apparaître le text */
