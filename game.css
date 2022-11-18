@@ -9,6 +9,10 @@ body{
     background-image: url('img/bg-interaxe.jpg');
 }
 
+.game p {
+    color: white;
+}
+
 .game-container{
     display: flex;
     flex-direction: column;
@@ -57,3 +61,11 @@ body{
 .game-container #error{
     color: red;
 }
+
+.instruction {
+    color: white;
+    font-weight: large;
+    margin-top: 20px;
+    text-align: center;
+}
+
